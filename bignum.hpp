@@ -1,4 +1,6 @@
-#pragma once
+#ifndef KARATSUBA_PROJECT_BIGNUM_HPP
+#define KARATSUBA_PROJECT_BIGNUM_HPP
+
 #include <vector>
 #include <string>
 #include <cstdint>
@@ -114,3 +116,5 @@ inline BigInt randomBigInt(int numDigits, std::mt19937_64& rng) {
     for (int i = 1; i < numDigits; ++i) s += static_cast<char>('0' + anyDigit(rng));
     return BigInt::fromDecimalString(s);
 }
+
+#endif //KARATSUBA_PROJECT_BIGNUM_HPP
