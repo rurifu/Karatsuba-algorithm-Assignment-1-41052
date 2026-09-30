@@ -9,7 +9,5 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 set(CMAKE_CXX_FLAGS_RELEASE "-02")
 
-include_directories(include)
-
-add_executable(CorrectnessTest.cpp MultiplyingAlgorithm.cpp)
-add_executable(MultiplyingAlgorithm.cpp BenchmarkHarness.cpp)
+add_executable(CorrectnessTest MultiplyingAlgorithm.cppCorrectnessTest.cpp)
+add_executable(BenchmarkHarness MultiplyingAlgorithm.cpp BenchmarkHarness.cpp)
