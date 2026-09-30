@@ -19,6 +19,8 @@ BigInt schoolBookAlgorithm(const BigInt& a, const BigInt& b) {
 		}
 	}
 
+	r.trim();
+	return r;
 };
 
 BigInt karatsubaAlgorithm(const BigInt& a, const BigInt& b, size_t cutoff) {
