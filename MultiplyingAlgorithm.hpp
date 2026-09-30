@@ -1,5 +1,7 @@
 #ifndef KARATSUBA_PROJECT_MULTIPLYALGORITHM_HPP
 #define KARATSUBA_PROJECT_MULTIPLYALGORITHM_HPP
+
 #include "bignum.hpp"
+#include "MultiplyingAlgorithm.cpp"
 
 #endif //KARATSUBA_PROJECT_MULTIPLYALGORITHM_HPP
