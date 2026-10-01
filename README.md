@@ -1,7 +1,7 @@
 # Karatsuba-algorithm-Assignment-1-41052
 Assignment 1 Mini Project for the course Advanced Algorithm 41052. This repository will focus mainly on the implementation of Karatsuba Algorithm and studies on how it compares to the grade school multiplication technique.
 
-##Layout
+## Layout
 ```
 bignum.hpp                 BigInt representation
 MultiplyingAlgorithm.hpp   Declarations for both multiplication algorithms
