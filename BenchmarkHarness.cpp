@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
     // Karatsuba cutoffs (in limbs, ~9 decimal digits each) to compare.
     std::vector<size_t> cutoffs = { 1, 4, 8, 16, 32, 64 };
 
-    int trialsPerSize = 5;
+    int trialsPerSize = 15;
     std::string outPath = "results/benchmark.csv";
     if (argc > 1) outPath = argv[1];
 
