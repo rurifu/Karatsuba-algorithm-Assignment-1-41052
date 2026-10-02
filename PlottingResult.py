@@ -12,7 +12,7 @@ from collections import defaultdict
 import matplotlib.pyplot as plt
 import numpy as np
  
-path = sys.argv[1] if len(sys.argv) > 1 else "results/benchmark-Release-trialsPerSize=20.csv"
+path = sys.argv[1] if len(sys.argv) > 1 else "results/benchmark-Release-trialsPerSize=5.csv"
  
 # rows[(algorithm, cutoff, digits)] -> list of time_ns
 rows = defaultdict(list)
